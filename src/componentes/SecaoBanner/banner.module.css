@@ -1,0 +1,62 @@
+.secaoBanner{
+    display: flex;
+    width: 100%;
+}
+
+.modoClaroBanner{
+    width: 50%;
+    color: #ffffff;
+}
+
+.imgFundo{
+    background-image: url("../../assets/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.containerTexto{
+    color: #022144;
+    width: 50%;
+    background-color: #f6f8fc;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoBanner{
+    font-size: 0.8rem;
+}
+
+.subtitulo{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.spanBanner{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*DARK MODE*/
+
+.mododarkBanner{
+    background-color: #252525;
+}
+
+@media (max-width: 768px) {
+    .imgFundo{
+        background-image: none;
+    }
+    .modoClaroBanner{
+        width: 0;
+    }
+    .containerTexto{
+        width: 100%;
+        padding-left: 20px;
+    }
+}

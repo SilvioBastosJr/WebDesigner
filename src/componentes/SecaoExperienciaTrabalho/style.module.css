@@ -1,0 +1,84 @@
+.modoClaro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f8f6;
+}
+
+.subtitleClaro{
+    color: #32333c;
+    font-size: 32px;
+    margin-top: 80px;
+}
+
+.modoClaro .subtitleClaro::before{
+    content: "";
+    position: absolute;
+    bottom: 110px;
+    left: 725px;
+    border: 2px solid #feb633;
+    width: 65px;
+}
+
+.modoClaro .paragrafoClaro{
+    width: 500px;
+    text-align: center;
+    margin: 50px 0;
+    color: #8a8fa3;
+}
+
+.card{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+/*DARK MODE*/
+
+.mudaCor-inforamacoes{
+    background-color: #393838;
+}
+
+.mudaCor-texto p, .mudaCor-texto h2{
+    color: #cccccc;
+}
+
+.mudaCor-card{
+    background-color: #393838;
+}
+
+@media(max-width: 768px) {
+    .modoClaro h2::before{
+        left: 340px;
+    }
+    .card{
+        display: block;
+        height: 100%;
+    }
+}
+
+@media(max-width: 517px) {
+    .modoClaro h2::before{
+        bottom: 85px;
+        left: 220px;
+    }
+}
+
+@media(max-width: 375px) {
+    .modoClaro h2{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 900;
+    }
+    .modoClaro h2::before{
+        bottom: 0;
+        left: 125px;
+    }
+    .modoClaro p{
+        width: 100%;
+        padding: 10px;
+    }
+}

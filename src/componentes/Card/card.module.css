@@ -1,0 +1,49 @@
+.secaoCard{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #edecec;
+    margin: 0 10px;
+}
+
+.secaoCard:hover{
+    border: 2px solid #feb633;
+}
+
+.containerCard p{
+    color: #8a8fa3;
+}
+
+.containerCard h2{
+    font-size: 1.4rem;
+}
+
+.paragrafo{
+    color: #9f9f9f;
+}
+
+.paragrafo:last-child{
+    padding-top: 20px;
+}
+
+.modoClaroSubtitulo{
+    color: #32333c;
+}
+
+/*DARK MODE*/
+
+.darkModeSubtitulo{
+    color: #ffffff;
+}
+
+@media(max-width: 768px) {
+    .secaoCard{
+        padding: 60px 20px;
+    }
+}
+
+@media(max-width: 375px) {
+    .secaoCard{
+        margin: 0 20px;
+    }
+}
