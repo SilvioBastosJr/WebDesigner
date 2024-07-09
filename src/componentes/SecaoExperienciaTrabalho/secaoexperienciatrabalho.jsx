@@ -4,17 +4,17 @@ import style from './style.module.css';
 
 import Card from "../Card/card";
 
-function SecaoExperienciaTrabalho() {
+function SecaoExperienciaTrabalho(props) {
     return (
         <section>
-            <div className= {style.modoClaro}>
+            <div className= {[props.novaCor, style.modoClaro].join(" ")}>
                 <h2 className= {style.subtitleClaro}>Experiências De Trabalho</h2>
                 <p className= {style.paragrafoClaro}>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
                 Sites e Marketing Digital, nos empenhamos diariamente para entregar
                 resultados que tragam impacto aos nossos clientes.</p>
             </div>  
 
-            <div className= {style.modoClaro}>
+            <div className= {[props.novaCor, style.modoClaro].join(" ")}>
                 <div className={style.card}>
                     <Card 
                         data="JUNHO 2012 - 2016"

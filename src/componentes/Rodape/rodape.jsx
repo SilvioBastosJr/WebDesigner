@@ -12,14 +12,8 @@ import rodape from './rodape.module.css';
 
 function Rodape(props) {
 
-    if (props.novaCor === 'modoClaro') { 
-        setNovaCor('modoEscuro'); 
-        } else { 
-        setNovaCor('modoClaro'); 
-        } 
-
     return (
-        <footer className= {props.qualCor}>
+        <footer className= {props.novaCor}>
             <img className= {rodape.logoFooter} src={ logo } alt="Logo Marca" />
             <p className= {rodape.textoFooter} >Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.</p>
             <div className= {rodape.containerItens}>

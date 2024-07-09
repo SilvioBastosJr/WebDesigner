@@ -38,15 +38,15 @@
 
 /*DARK MODE*/
 
-.mudaCor-inforamacoes{
+.modoEscuro{
     background-color: #393838;
 }
 
-.mudaCor-texto p, .mudaCor-texto h2{
+.modoEscuro-texto p, .modoEscuro-texto h2{
     color: #cccccc;
 }
 
-.mudaCor-card{
+.modoEscuro-card{
     background-color: #393838;
 }
 

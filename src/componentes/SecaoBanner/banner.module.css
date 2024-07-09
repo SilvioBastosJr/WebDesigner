@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-.modoClaroBanner{
+.modoClaro{
     width: 50%;
     color: #ffffff;
 }
@@ -44,7 +44,7 @@
 
 /*DARK MODE*/
 
-.mododarkBanner{
+.modoEscuro{
     background-color: #252525;
 }
 
@@ -52,7 +52,7 @@
     .imgFundo{
         background-image: none;
     }
-    .modoClaroBanner{
+    .modoClaro{
         width: 0;
     }
     .containerTexto{
