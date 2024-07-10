@@ -13,7 +13,7 @@ import rodape from './rodape.module.css';
 function Rodape(props) {
 
     return (
-        <footer className= {props.novaCor}>
+        <footer className= {rodape[props.qualCor]}>
             <img className= {rodape.logoFooter} src={ logo } alt="Logo Marca" />
             <p className= {rodape.textoFooter} >Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.</p>
             <div className= {rodape.containerItens}>

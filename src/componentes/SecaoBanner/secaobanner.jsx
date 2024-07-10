@@ -5,7 +5,7 @@ import banner from './banner.module.css';
 function SecaoBanner(props) {
     return (
         <section className= {banner.secaoBanner}>
-            <div className= {[props.novaCor, banner.modoClaro].join(" ")}>
+            <div className= {[banner[props.qualCor], banner.modoClaro].join(" ")}>
                 <div className= {banner.imgFundo}></div>
             </div>
 
